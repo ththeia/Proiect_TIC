@@ -3,12 +3,15 @@ var router = express.Router();
 
 
 var admin = require("firebase-admin");
+
+
 var serviceAccount = require('C:\\Users\\theod\\Desktop\\Proiect_TIC\\backend\\serviceAccountKey.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
 
 const db = admin.firestore();
+
 
 router.get('/firestore', (req, res, next) => {
   const collectionName = req.query.collection; 

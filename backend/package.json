@@ -9,8 +9,9 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "firebase": "^11.2.0",
-    "firebase-admin": "^13.0.2",
+    "express-oas-generator": "^1.0.46",
+    "firebase-admin": "^12.7.0",
+    "firelord": "^2.8.20",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1"
